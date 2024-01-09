@@ -8,6 +8,10 @@ public class IdiomaDoSistema {
 
 
         System.out.print("Seu sistema está em ");
-        System.out.println(pais.getLanguage());
+
+        if (pais.getLanguage() == "pt")
+        {
+            System.out.println("Português.");
+        }
     }
 }
